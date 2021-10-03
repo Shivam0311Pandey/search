@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+body{
+    background-color: #fff;
+    color: #222;
+    font-family: arial,sans-serif;
+}
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 14px;
+    height: 60px;
+    padding-right: 15px;
+    margin-bottom: 80px;
+}
+.head a{
+    padding: 10px;
+    color: #222;
+    text-decoration: none;
+}
+.head a:hover{
+    text-decoration: underline;
+}
+.logo{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+img{
+    max-height: 92px;
+    max-width: 272px;
+}
