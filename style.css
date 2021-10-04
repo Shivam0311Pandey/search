@@ -32,10 +32,11 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
-img{
-    max-height: 92px;
-    max-width: 272px;
+
+@media only screen and (max-width: 600px) {
+    
 }
 .box{
     max-width: 580px;
@@ -104,4 +105,15 @@ img{
     background-color: #e8e8e8;
     height: 3.5em;
     color: rgba(0,0,0,.54);
+}
+.images{
+    position: absolute;
+    display: flex;
+    bottom: 0;
+    right: 10px;
+    color: #4285F4;
+}
+.container{
+    position: relative;
+    padding: 0;
 }
