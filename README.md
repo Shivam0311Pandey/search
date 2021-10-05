@@ -17,4 +17,4 @@ Query Advanced: On the Google Advanced Search page, the user can provide input f
 Find pages with… “all these words:”,
 Find pages with… “this exact word or phrase:”,
 Find pages with… “any of these words:” and 
-Find pages with… “none of these words:”
+Find pages with… “none of these words:”.
