@@ -8,7 +8,7 @@ body{
     background-color: #fff;
     color: #222;
     font-family: arial,sans-serif;
-    font-size: 14px !important;
+    font-size: 14px;
 }
 .head{
     display: flex;
@@ -48,10 +48,10 @@ body{
     margin: 20px auto;
     display: block;
 }
-input[type=text]:focus, input[type=text]:hover{
-    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px !important;
+.bar input[type=text]:focus, input[type=text]:hover{
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
 }
-input[type="text"]{
+.bar input[type="text"]{
     border-radius: 30px;
     border: 1px solid #ccc;
     font-size: 16px;
@@ -110,7 +110,121 @@ input[type="text"]{
     right: 10px;
     color: #4285F4;
 }
-.container{
+.containerlogo{
     position: relative;
     padding: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    align-items: center;
+}
+.logoadvance{
+    max-height: 25px;
+    max-width: 80px;
+    margin: 10px;
+}
+.header a:last-child{
+    text-decoration: none;
+    color: #222;
+    margin: 10px;
+}
+.header a:last-child:hover{
+    text-decoration: underline;
+}
+.advanced{
+    margin: 25px 35px;
+    font-size: 20px;
+    color: #d93025;
+}
+.advanced label{
+    margin-left: 10px;
+}
+.rest{
+    margin: 35px;
+    padding: 10px;
+}
+.top{
+    display: inline-block;
+    min-width: 167px;
+    width: 16%;
+    font-size: 16px;
+    min-height: 42px;
+    font-weight: 500;
+    color: #333;
+    vertical-align: middle;
+    max-width: 180px;
+}
+.top2{
+    display: inline-block;
+    font-size: 14px;
+    color: gray;
+    vertical-align: middle;
+    font-weight: 550;
+}
+.down1{
+    display: inline-block;
+    color: #222;
+    font-size: 13px;
+    line-height: 16px;
+    vertical-align: middle;
+    max-width: 180px;
+    line-height: 16px;
+    min-width: 175px;
+    height: 42px;
+}
+.box2{
+    display: inline-block;
+    min-width: 167px;
+    height: 42px;
+    vertical-align: middle;
+    max-width: 550px;
+    min-height: 41px;
+}
+.box2 input[type="text"]{
+    display: inline-block;
+    width: 100%;
+    padding-left: 8px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    color: #222;
+    font-family: arial,sans-serif;
+    outline: none;
+    height: 29px;
+    vertical-align: middle;
+}
+.box2 input[type=text]:focus{
+    border-color: #4285F4 ;
+}
+.down2{
+    display: inline-block;
+    font-size: 12px;
+    color: gray;
+    vertical-align: middle;
+    line-height: 13px;
+}
+.submitadvanced{
+    max-width: 550px;
+    min-width: 167px;
+}
+.submitadvanced input[type="submit"]{
+    min-width: 120px;
+    height: 30px;
+    line-height: 100%;
+    float: right;
+    margin: 10px 0;
+    font-size: 11px;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 2px;
+    border: 1px solid #3079ed;
+    background-color: #4d90fe;
+    background-image: -webkit-linear-gradient(top,#4d90fe,#4787ed);
+    color: #fff;
+}
+.submitadvanced input[type="submit"]::after{
+    content: "";
+    clear: right;
 }
